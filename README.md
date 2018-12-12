@@ -37,6 +37,7 @@ You can add libraries here.
 The file specifies Python version to run this application by CF.
 See more details at [Python Buildpack](https://docs.cloudfoundry.org/buildpacks/python/index.html "Python Buildpack").
 Here I used "python-3.6.6", which is the latest python version of python buildpack on SAP CF as of 2018/12/12.
+[Here](https://github.com/cloudfoundry/python-buildpack/releases/tag/v1.6.20) is supported python version for Python Buildpack 1.6.20.
 
 #### manifest.yml
 The file specifies about the specs of instance (memory/disk quota, etc).
