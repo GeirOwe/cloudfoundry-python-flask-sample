@@ -18,8 +18,7 @@ cf api <your api URL>
 cf login
 ```
 
-3. Push your application to CF
-
+3. Push your application to CF from directory of your application on local PC
 ```
 cf push <your application name>
 ```
@@ -37,7 +36,7 @@ You can add libraries here.
 #### runtime.txt
 The file specifies Python version to run this application by CF.
 See more details at [Python Buildpack](https://docs.cloudfoundry.org/buildpacks/python/index.html "Python Buildpack").
-Here I use "python-3.7.1", which is the latest python version as of 2018/12/12.
+Here I used "python-3.6.6", which is the latest python version of python buildpack on SAP CF as of 2018/12/12.
 
 #### manifest.yml
 The file specifies about the specs of instance (memory/disk quota, etc).
