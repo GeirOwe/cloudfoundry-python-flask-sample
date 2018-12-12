@@ -7,9 +7,23 @@ The contents is based on repository [yuta-hono/flask-cloudfoundry-sample](https:
 - Cloud Foundry (Diego) or the version which Buildpack available
 
 ## How to run
-1. Make sure that you have already logged into CF with [cf_cli](http://docs.cloudfoundry.org/cf-cli/install-go-cli.html "Installing the cf Command Line Interface").
-2. Run `$ cf push <yourapp> -b https://github.com/cloudfoundry/python-buildpack`
-3. Go to your application URL. `http://<host>/` just shows "Hello world".
+1. select cf api url
+
+```
+cf api <your api URL>
+```
+
+2. login to your space
+```
+cf login
+```
+
+3. Push your application to CF
+
+```
+cf push <your application name>
+```
+
 
 ## Files
 
