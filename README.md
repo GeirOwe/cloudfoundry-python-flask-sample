@@ -3,6 +3,8 @@
 This is a sample application to deploy Flask application for Cloud Foundry (CF).
 The contents is based on repository [yuta-hono/flask-cloudfoundry-sample](https://github.com/yuta-hono/flask-cloudfoundry-sample).
 
+Please see blog post ["Create simple Flask REST API using Cloud Foundry"](https://blogs.sap.com/2018/12/12/create-simple-flask-rest-api-using-cloud-foundry/) for further detail.
+
 ## Environment to run
 - Cloud Foundry (Diego) or the version which Buildpack available
 
